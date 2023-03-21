@@ -1,442 +1,13 @@
 $tablet: 1100px;
 $mobile: 600px;
 
-// .authform {
-//   /* Sign in */
-
-//   position: absolute;
-//   width: 100%;
-//   height: 100%;
-
-//   background: url(background.svg);
-
-//   &__rectangle {
-//     position: absolute;
-//     width: 50%;
-//     height: 100%;
-//     left: 50%;
-//     top: 0px;
-//     background-color: rgba(0, 0, 0, 0.61);
-
-//     backdrop-filter: blur(100px);
-//   }
-
-//   // /* Shruti_futuristic_cyberpunk_hovering_Egypt_multiple_broken_floa_636a47e1-e41e-4691-866a-9b667d8cb951 1 (2) 1 */
-
-//   // position: absolute;
-//   // width: 1332px;
-//   // height: 760px;
-//   // left: 1332px;
-//   // top: 0px;
-
-//   // background: linear-gradient(0deg, rgba(3, 30, 24, 0.6), rgba(3, 30, 24, 0.6)), linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Shruti_futuristic_cyberpunk_hovering_Egypt_multiple_broken_floa_636a47e1-e41e-4691-866a-9b667d8cb951 1 (2).png);
-//   // transform: matrix(-1, 0, 0, 1, 0, 0);
-
-
-//   // /* Rectangle 39320 */
-
-//   // position: absolute;
-//   // width: 108px;
-//   // height: 760px;
-//   // left: 1332px;
-//   // top: 0px;
-
-//   // background: #021310;
-
-
-//   // /* Frame 7 */
-
-//   // position: absolute;
-//   // width: 612px;
-//   // height: 760px;
-//   // left: 0px;
-//   // top: 0px;
-
-
-
-//   // /* Rectangle 39321 */
-
-//   // position: absolute;
-//   // width: 612px;
-//   // height: 760px;
-//   // left: 0px;
-//   // top: 0px;
-
-//   // background: rgba(25, 71, 72, 0.31);
-//   // backdrop-filter: blur(4px);
-//   // /* Note: backdrop-filter has minimal browser support */
-
-
-//   // /* Rectangle */
-
-//   // position: absolute;
-//   // width: 612px;
-//   // height: 760px;
-//   // left: 0px;
-//   // top: 0px;
-
-//   // background: url(.png);
-//   // opacity: 0.2;
-
-
-//   // /* WELCOME */
-
-//   // position: absolute;
-//   // width: 250px;
-//   // height: 43px;
-//   // left: 181px;
-//   // top: 97px;
-
-//   // font-family: 'Ethnocentric';
-//   // font-style: normal;
-//   // font-weight: 400;
-//   // font-size: 36px;
-//   // line-height: 43px;
-
-//   // background: linear-gradient(180deg, #FEFDCA 0%, #AFAE7A 100%);
-//   // -webkit-background-clip: text;
-//   // -webkit-text-fill-color: transparent;
-//   // background-clip: text;
-//   // text-fill-color: transparent;
-
-
-
-//   // /* Group 13 */
-
-//   // position: absolute;
-//   // width: 364px;
-//   // height: 317px;
-//   // left: 124px;
-//   // top: 250px;
-
-
-
-//   // /* Frame 11985 */
-
-//   // /* Auto layout */
-//   // display: flex;
-//   // flex-direction: row;
-//   // justify-content: center;
-//   // align-items: center;
-//   // padding: 10px 152px;
-//   // gap: 5px;
-
-//   // position: absolute;
-//   // width: 362px;
-//   // height: 46px;
-//   // left: 126px;
-//   // top: 486px;
-
-//   // background: #000000;
-//   // border-radius: 5px;
-
-
-//   // /* Next */
-
-//   // width: 58px;
-//   // height: 26px;
-
-//   // font-family: 'Jost';
-//   // font-style: normal;
-//   // font-weight: 600;
-//   // font-size: 18px;
-//   // line-height: 26px;
-//   // /* identical to box height */
-//   // text-align: center;
-
-//   // color: #D7D7D7;
-
-
-//   // /* Inside auto layout */
-//   // flex: none;
-//   // order: 0;
-//   // flex-grow: 0;
-
-
-//   // /* arrow-left-thin */
-
-//   // display: none;
-//   // width: 24px;
-//   // height: 24px;
-
-//   // transform: matrix(-1, 0, 0, 1, 0, 0);
-
-//   // /* Inside auto layout */
-//   // flex: none;
-//   // order: 1;
-//   // flex-grow: 0;
-
-
-//   // /* Group 12 */
-
-//   // position: absolute;
-//   // width: 364px;
-//   // height: 191px;
-//   // left: 124px;
-//   // top: 250px;
-
-
-
-//   // /* Group 9 */
-
-//   // position: absolute;
-//   // width: 364px;
-//   // height: 68px;
-//   // left: 124px;
-//   // top: 250px;
-
-
-
-//   // /* Email */
-
-//   // position: absolute;
-//   // width: 42px;
-//   // height: 26px;
-//   // left: 124px;
-//   // top: 250px;
-
-//   // font-family: 'Jost';
-//   // font-style: normal;
-//   // font-weight: 400;
-//   // font-size: 18px;
-//   // line-height: 26px;
-//   // /* identical to box height */
-
-//   // color: #FFFFFF;
-
-
-
-//   // /* Frame 8 */
-
-//   // box-sizing: border-box;
-
-//   // position: absolute;
-//   // width: 362px;
-//   // height: 36px;
-//   // left: 126px;
-//   // top: 282px;
-
-//   // background: rgba(7, 39, 43, 0.38);
-//   // border: 1px solid #336964;
-//   // border-radius: 3px;
-
-
-//   // /* Email */
-
-//   // position: absolute;
-//   // width: 33px;
-//   // height: 20px;
-//   // left: 12px;
-//   // top: 8px;
-
-//   // font-family: 'Jost';
-//   // font-style: normal;
-//   // font-weight: 400;
-//   // font-size: 14px;
-//   // line-height: 20px;
-
-//   // color: #A6ACAC;
-
-
-
-//   // /* Group 8 */
-
-//   // position: absolute;
-//   // width: 362px;
-//   // height: 68px;
-//   // left: 126px;
-//   // top: 334px;
-
-
-
-//   // /* Password */
-
-//   // position: absolute;
-//   // width: 71px;
-//   // height: 26px;
-//   // left: 126px;
-//   // top: 334px;
-
-//   // font-family: 'Jost';
-//   // font-style: normal;
-//   // font-weight: 400;
-//   // font-size: 18px;
-//   // line-height: 26px;
-//   // /* identical to box height */
-
-//   // color: #FFFFFF;
-
-
-
-//   // /* Frame 9 */
-
-//   // box-sizing: border-box;
-
-//   // position: absolute;
-//   // width: 362px;
-//   // height: 36px;
-//   // left: 126px;
-//   // top: 366px;
-
-//   // background: rgba(7, 39, 43, 0.38);
-//   // border: 1px solid #336964;
-//   // border-radius: 3px;
-
-
-//   // /* Password */
-
-//   // position: absolute;
-//   // width: 55px;
-//   // height: 20px;
-//   // left: 12px;
-//   // top: 8px;
-
-//   // font-family: 'Jost';
-//   // font-style: normal;
-//   // font-weight: 400;
-//   // font-size: 14px;
-//   // line-height: 20px;
-
-//   // color: #A6ACAC;
-
-
-
-//   // /* eye-off */
-
-//   // position: absolute;
-//   // width: 16px;
-//   // height: 16px;
-//   // left: 332px;
-//   // top: 10px;
-
-
-
-//   // /* Vector */
-
-//   // position: absolute;
-//   // left: 4.17%;
-//   // right: 4.16%;
-//   // top: 12.5%;
-//   // bottom: 8.33%;
-
-//   // background: #A6ACAC;
-
-
-//   // /* Group 11 */
-
-//   // position: absolute;
-//   // width: 362px;
-//   // height: 23px;
-//   // left: 126px;
-//   // top: 418px;
-
-
-
-//   // /* Group 10 */
-
-//   // position: absolute;
-//   // width: 132px;
-//   // height: 23px;
-//   // left: 126px;
-//   // top: 418px;
-
-
-
-//   // /* Remember me */
-
-//   // position: absolute;
-//   // width: 99px;
-//   // height: 23px;
-//   // left: 159px;
-//   // top: 418px;
-
-//   // font-family: 'Jost';
-//   // font-style: normal;
-//   // font-weight: 400;
-//   // font-size: 16px;
-//   // line-height: 23px;
-
-//   // color: #D7D7D7;
-
-
-
-//   // /* Rectangle 6 */
-
-//   // box-sizing: border-box;
-
-//   // position: absolute;
-//   // width: 20px;
-//   // height: 20px;
-//   // left: 126px;
-//   // top: 419px;
-
-//   // border: 1px solid #336964;
-//   // border-radius: 3px;
-
-
-//   // /* Forgot password? */
-
-//   // position: absolute;
-//   // width: 130px;
-//   // height: 23px;
-//   // left: 358px;
-//   // top: 418px;
-
-//   // font-family: 'Jost';
-//   // font-style: normal;
-//   // font-weight: 600;
-//   // font-size: 16px;
-//   // line-height: 23px;
-//   // text-align: center;
-
-//   // color: #DDDCA9;
-
-
-
-//   // /* Don’t have an account? Sign up */
-
-//   // position: absolute;
-//   // width: 221px;
-//   // height: 23px;
-//   // left: 195px;
-//   // top: 544px;
-
-//   // font-family: 'Jost';
-//   // font-style: normal;
-//   // font-weight: 400;
-//   // font-size: 16px;
-//   // line-height: 23px;
-//   // text-align: center;
-
-//   // color: #C8C8C8;
-
-
-
-//   // /* Sign in to continue. */
-
-//   // position: absolute;
-//   // width: 149px;
-//   // height: 26px;
-//   // left: 231px;
-//   // top: 148px;
-
-//   // font-family: 'Jost';
-//   // font-style: normal;
-//   // font-weight: 400;
-//   // font-size: 18px;
-//   // line-height: 26px;
-//   // /* identical to box height */
-
-//   // color: #FFFFFF;
-
-
-// }
-
 .authform {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background: url(background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
   width: 92.5%;
   height: 100vh;
@@ -480,25 +51,30 @@ $mobile: 600px;
 
 
   &__center {
+    position: absolute;
     width: 42.5%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    overflow-y: hidden;
     @media screen and (max-width: $tablet) {
       width: 100%;
       height: max-content;
     }
 
     &__form {
-      background: linear-gradient(rgba(25, 71, 72, 0.31) 96.04%,
-          rgba(255, 255, 255, 0) 3.05%);
+      background: linear-gradient(rgba(25, 71, 72, 0.31) 100%,
+          rgba(255, 255, 255, 0) 0%);
+      position: relative;
       filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(10px);
+      clip-path: polygon(0 0, 95% 0, 100% 5%, 100% 95%, 95% 100%, 0 100%);
       width: 100%;
-      height: 100%;
+      min-height: 100%;
+      height: auto;
       padding: 20px 0px;
+      flex-wrap: wrap;
 
       @media screen and (max-width: $tablet) {
         display: flex;
@@ -516,20 +92,53 @@ $mobile: 600px;
         position: relative;
 
         &__text {
-          font-family: Barlow;
+          font-family: Ethnocentric;
           font-style: normal;
-          font-weight: 600;
-          font-size: 28px;
-          color: #ffffff;
-          position: absolute;
+          font-weight: 400;
+          font-size: 36px;
+          // color: #AFAE7A;
+          // color: linear-gradient(180deg, #FEFDCA 0%, #AFAE7A 100%);
+          background: -webkit-linear-gradient(#FEFDCA, #AFAE7A);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+
+          position: relative;
           width: 100%;
           text-align: center;
-          margin-top: 10%;
+          margin-top: 12.7%;
+        }
+
+        &__sub {
+          position: relative;
+          font-family: Jost;
+          color: white;
+          font-weight: 400;
+          font-size: 18px;
+          text-align: center;
+        }
+
+        &__alttext{
+          font-family: Ethnocentric;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          // color: #AFAE7A;
+          // color: linear-gradient(180deg, #FEFDCA 0%, #AFAE7A 100%);
+          background: -webkit-linear-gradient(#FEFDCA, #AFAE7A);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+
+          position: relative;
+          width: 100%;
+          text-align: center;
+          margin-top: 6.3%;
+          padding-bottom: 15%;
         }
       }
 
+
       &__container {
-        background-image: url("../../assets/images/noise.svg");
+        // background-image: url("../../assets/images/noise.svg");
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 40px;
@@ -539,17 +148,20 @@ $mobile: 600px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
+        padding-bottom: 40%;
 
         &__text {
-          font-family: avenir;
-          font-weight: normal;
+          font-family: Jost;
+          font-weight: 400;
           font-size: 16px;
           letter-spacing: 0.08em;
-          color: #ffffff;
+          color: #C8C8C8;
 
           &__link {
             text-decoration: none;
-            color: #ddb83a;
+            color: #DDDCA9;
+            font-weight: 600;
           }
         }
 
@@ -572,7 +184,7 @@ $mobile: 600px;
           }
 
           &__link {
-            font-family: Barlow;
+            font-family: Jost;
             font-style: normal;
             font-weight: 500;
             font-size: 20px;

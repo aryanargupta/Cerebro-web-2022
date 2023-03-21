@@ -9,11 +9,10 @@
     &__enable {
       cursor: pointer;
       margin-top: 5px;
-      width: 150px;
-      height: 39px;
-      background: #ecb427;
+      width: 362px;
+      height: 46px;
+      background: black;
       border: none;
-      box-shadow: 0px 0px 10px rgba(236, 180, 39, 0.6);
       border-radius: 5px;
 
       &:active {
@@ -22,10 +21,10 @@
       }
 
       &__text {
-        font-family: Barlow;
-        font-weight: normal;
-        font-size: 22px;
-        color: rgba(0, 0, 0, 0.75);
+        font-family: Jost;
+        font-weight: 600;
+        font-size: 18px;
+        color: #D7D7D7;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -42,7 +41,7 @@
       border-radius: 11px;
 
       &__text {
-        font-family: Barlow;
+        font-family: Jost;
         font-size: 24px;
         text-align: center;
         color: #000000;

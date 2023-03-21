@@ -17,12 +17,7 @@ const Page1 = ({ setFieldValue }) => {
       ))}
       <div className="signup__bottom__buttons">
         <button className="signup__bottom__buttons__page" type="submit">
-          Next Page
-          <img
-            src={rightarrow}
-            alt="next"
-            className="signup__bottom__buttons__page__arrow"
-          />
+          Next →
         </button>
       </div>
     </>

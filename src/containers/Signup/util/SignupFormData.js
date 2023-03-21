@@ -16,11 +16,6 @@ export const signupFormData = {
       type: "tel",
     },
     {
-      name: "address",
-      label: "Address",
-      type: "text",
-    },
-    {
       name: "email",
       label: "Email ID (Institute ID preferred)",
       type: "email",
@@ -39,8 +34,8 @@ export const signupFormData = {
     },
     {
       name: "proof",
-      label: "Proof of pursuing UG (under 2MB)",
-      type: "file",
+      label: "Proof of pursuing UG",
+      type: "text",
     },
     {
       name: "password",
@@ -59,10 +54,9 @@ export const initialValues = {
   firstname: "",
   lastname: "",
   phone: "",
-  address: "",
   institute: "",
   degree: "",
-  proof: undefined,
+  proof: "",
   email: "",
   password: "",
   confirmPassword: "",
@@ -80,9 +74,6 @@ export const validatePage = (values, page) => {
     if (!values.phone) errors.phone = "Phone number is required";
     else if (!values.phone.match(/^\d{10}$/))
       errors.phone = "Please enter a valid 10 digit mobile number";
-    if (!values.address) errors.address = "Address is required";
-    else if (values.address.length > 1000)
-      errors.address = "Address should be less than 1000 characters";
     if (!values.email) errors.email = "Email is required";
     if (!values.email.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i))
       errors.email = "Please enter a valid email address";
@@ -92,10 +83,10 @@ export const validatePage = (values, page) => {
     if (!values.institute) errors.institute = "Institute name is required";
     else if (values.institute.length > 1000)
       errors.institute = "Institute name should be less than 1000 characters";
+    if (!values.proof) errors.proof = "Proof of pursuing UG is required";
     if (!values.degree) errors.degree = "Degree is required";
     else if (values.degree.length > 1000)
       errors.degree = "Degree should be less than 1000 characters";
-    if (!values.proof) errors.proof = "Proof of bachelors is required";
     if (!values.password) errors.password = "Password is required";
     else if (values.password.length < 7)
       errors.password = "Password is too small";

@@ -26,20 +26,15 @@ const Signup = () => {
       let res;
       try {
         const fileUpload = new FormData();
-        fileUpload.append("pdf", values.proof);
+        fileUpload.append("link", values.proof);
         fileUpload.append("email", values.email);
-        res = await axiosInstance.post("/docs/proof-upload/", fileUpload, {
-          headers: { "Content-Type": "multipart/form-data" },
-        });
-        const id = res.data.id;
         const data = {
           first_name: values.firstname,
           last_name: values.lastname,
           email: values.email,
           password: values.password,
           mobile_number: values.phone,
-          proof: id,
-          address: values.address,
+          proof: values.proof,
           institute_name: values.institute,
           degree: values.degree,
         };
@@ -61,7 +56,7 @@ const Signup = () => {
   };
 
   return (
-    <AuthForm to="/login" link="Login" title="Sign Up" text="Already a member?">
+    <AuthForm to="/login" link="Login" title="Sign up" text="Already a member?">
       <Formik {...{ validate, initialValues, onSubmit }}>
         {({ setFieldValue, isSubmitting, errors }) => (
           <Form className="signup">

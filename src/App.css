@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #071e40;
+  background: #000000;
 }
 
 .App {
@@ -70,4 +70,14 @@ body {
 @font-face {
   font-family: Retro Gaming;
   src: url("./assets/fonts/Retro Gaming.ttf");
+}
+
+@font-face {
+  font-family: Jost;
+  src: url("./assets/fonts/Jost-Regular.ttf");
+}
+
+@font-face {
+  font-family: Ethnocentric;
+  src: url("./assets/fonts/ethnocentric-rg.otf");
 }

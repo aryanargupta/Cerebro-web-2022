@@ -36,7 +36,7 @@ export const FormInput = ({
       ) : (
         <Field
           {...{ name, type, disabled }}
-          as={`${name === "address" ? "textarea" : "input"}`}
+          as={`${"input"}`}
           className={`forminput__field ${custom}`}
         />
       )}
