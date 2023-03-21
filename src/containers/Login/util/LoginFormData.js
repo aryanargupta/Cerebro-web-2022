@@ -1,7 +1,7 @@
 export const loginFormData = [
   {
     name: "email",
-    label: "Registered Email",
+    label: "Email",
     type: "text",
   },
   {

@@ -5,7 +5,7 @@ $small-mobile: 400px;
 .forminput {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   // width: 100%;
   input:-webkit-autofill,
   textarea:-webkit-autofill,
@@ -22,21 +22,21 @@ $small-mobile: 400px;
   }
 
   &__label {
-    font-family: Barlow;
+    font-family: Jost;
     font-weight: 500;
     font-size: 20px;
-    color: #b9b9b9;
+    color: #ffffff;
   }
 
   &__field {
     padding: 0px 5px;
     margin-top: 5px;
-    background: #44658c;
-    box-shadow: 0px 3.77495px 7.54991px #152c4d;
-    border-radius: 5.09844px;
-    border: none;
-    width: 249px;
-    height: 35px;
+    // background: #44658c;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    border: 1px solid #336964;
+    width: 362px;
+    height: 36px;
     color: #ffffff;
     font-size: 16px;
     outline: none;
@@ -50,7 +50,7 @@ $small-mobile: 400px;
   }
 
   &__error {
-    font-family: Barlow;
+    font-family: Jost;
 
     margin-top: 2px;
     font-size: 15px;
@@ -60,54 +60,49 @@ $small-mobile: 400px;
 
   &__signup {
     &__firstname {
-      float: left;
-      padding-right: 20px;
+      width: 362px;
+      margin-bottom: 10px;
+    }
+
+    &__lastname {
+      width: 362px;
+      margin-bottom: 10px;
     }
 
     &__phone {
-      margin-top: 22px;
+      width: 362px;
       input {
         margin-top: 2px;
       }
-    }
-
-    &__address {
-      width: 100%;
-      padding: 5px 5px;
-      resize: none;
-      overflow-y: clip;
-      textarea {
-        height: 45px;
-      }
+      margin-bottom: 10px;
     }
 
     &__email {
-      width: 100%;
+      width: 362px;
     }
 
     &__institute {
-      width: 100%;
+      width: 362px;
+      margin-bottom: 10px;
     }
 
     &__degree {
       margin-top: 5px;
+      margin-bottom: 10px;
     }
 
     &__password {
-      float: left;
-      padding-right: 20px;
+      margin-bottom: 10px;
     }
 
     &__proof {
-      label {
-        margin-top: 10px;
-      }
+      margin-bottom: 10px;
     }
   }
 
   &__login {
     &__email {
-      width: 500px;
+      width: 362px;
       margin-bottom: 10px;
     }
   }
@@ -143,7 +138,7 @@ $small-mobile: 400px;
       padding: 4px;
 
       label {
-        font-family: Barlow;
+        font-family: Jost;
         font-style: normal;
         font-weight: normal;
         font-size: 28px;
@@ -165,7 +160,7 @@ $small-mobile: 400px;
   &__create-team {
     &__team_name {
       label {
-        font-family: Barlow;
+        font-family: Jost;
         font-style: normal;
         font-weight: normal;
         font-size: 28px;
@@ -240,16 +235,6 @@ $small-mobile: 400px;
       &__confirmPassword {
         label {
           margin-top: 10px;
-        }
-      }
-
-      &__address {
-        padding: 0px;
-        label {
-          padding-top: 10px;
-        }
-        textarea {
-          padding: 5px;
         }
       }
 

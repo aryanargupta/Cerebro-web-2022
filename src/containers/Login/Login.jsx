@@ -35,7 +35,7 @@ const Login = () => {
   };
 
   return (
-    <AuthForm title="Login" to="/signup" text="New member?" link="Sign Up">
+    <AuthForm title="Welcome" subtitle="Sign in to continue." to="/signup" text="Don't have an account?" link="Sign up">
       <Formik {...{ validate, initialValues, onSubmit }}>
         {({ isSubmitting, errors }) => (
           <Form className="login">
@@ -45,7 +45,7 @@ const Login = () => {
             <Link to="/forgot-password" className="login__button">
               <span className="login__button__link">Forgot Password?</span>
             </Link>
-            <AuthBtn {...{ errors, isSubmitting }} btnText="Login" />
+            <AuthBtn {...{ errors, isSubmitting }} btnText="Sign In" />
           </Form>
         )}
       </Formik>
